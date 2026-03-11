@@ -1,0 +1,31 @@
+using UnityEngine;
+
+namespace JarvisGameTemplate.Enemies
+{
+    public class EnemyHealth : MonoBehaviour
+    {
+        [SerializeField] private int maxHealth = 30;
+
+        private int currentHealth;
+
+        private void Awake()
+        {
+            currentHealth = maxHealth;
+        }
+
+        public void TakeDamage(int amount)
+        {
+            currentHealth -= amount;
+
+            if (currentHealth <= 0)
+            {
+                Die();
+            }
+        }
+
+        private void Die()
+        {
+            Destroy(gameObject);
+        }
+    }
+}
