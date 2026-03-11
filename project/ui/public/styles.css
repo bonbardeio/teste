@@ -1,0 +1,41 @@
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  color: #111;
+  background: #f3f4f6;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 20px;
+}
+
+.panel {
+  background: white;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 14px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.actions,
+li {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+}
+
+canvas {
+  border: 2px solid #111827;
+  width: 100%;
+  background: #d1fae5;
+}
