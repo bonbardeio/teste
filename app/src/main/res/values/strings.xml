@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GameDevAI</string>
+    <string name="hint_command">Ex.: criar jogo fps</string>
+</resources>
