@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tarefas Inteligente</string>
+    <string name="task_title">Título da tarefa</string>
+    <string name="task_description">Descrição</string>
+    <string name="add_task">Adicionar tarefa</string>
+    <string name="delete_task">Excluir tarefa</string>
+    <string name="fill_all_fields">Preencha todos os campos.</string>
+    <string name="task_created">Tarefa criada com sucesso.</string>
+    <string name="task_deleted">Tarefa removida.</string>
+    <string name="no_tasks">Nenhuma tarefa cadastrada ainda.</string>
+    <string name="open_settings">Abrir configurações</string>
+    <string name="settings_title">Configurações</string>
+    <string name="notifications">Receber notificações locais</string>
+    <string name="back">Voltar</string>
+    <string name="settings_saved">Configuração salva.</string>
+</resources>
