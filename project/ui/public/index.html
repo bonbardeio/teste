@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoinQuest Starter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CoinQuest Starter</h1>
+      <p>Template de app+jogo com login, loja, inventário, HUD e save.</p>
+    </header>
+
+    <section class="panel">
+      <h2>Autenticação</h2>
+      <input id="username" placeholder="Usuário" />
+      <input id="password" placeholder="Senha" type="password" />
+      <div class="actions">
+        <button id="registerBtn">Registrar</button>
+        <button id="loginBtn">Entrar</button>
+      </div>
+      <p id="authMessage"></p>
+    </section>
+
+    <section class="panel">
+      <h2>HUD</h2>
+      <p>Moedas: <strong id="coins">0</strong></p>
+      <p>Inventário: <span id="inventory">(vazio)</span></p>
+      <button id="saveBtn">Salvar progresso</button>
+      <button id="loadBtn">Carregar progresso</button>
+    </section>
+
+    <section class="panel">
+      <h2>Loja virtual</h2>
+      <ul id="storeList"></ul>
+    </section>
+
+    <section class="panel">
+      <h2>Multiplayer (presença)</h2>
+      <ul id="playersList"></ul>
+    </section>
+
+    <section class="panel">
+      <h2>Jogo (mapa + NPC IA simples)</h2>
+      <canvas id="gameCanvas" width="500" height="260"></canvas>
+    </section>
+
+    <script src="https://cdn.socket.io/4.8.1/socket.io.min.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
